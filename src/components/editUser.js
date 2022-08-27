@@ -14,7 +14,7 @@ const EditUser = () => {
 
   console.log(id);
 
-  useEffect(() => {
+  useEffect((id) => {
     fetch(`${API}/api/users/${id}`)
       .then((data) => data.json())
       .then((res) => setUser(res))

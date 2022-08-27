@@ -9,8 +9,6 @@ const SignupForm = () => {
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
   const [profession, setProfession] = useState("");
-  const [close, setClose] = useState(true);
-  const [status, setStatus] = useState("");
   const [message, setMessage] = useState("");
 
   const signup = () => {

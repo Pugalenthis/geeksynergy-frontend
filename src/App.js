@@ -1,5 +1,5 @@
 import "./App.css";
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import LoginForm from "./components/loginForm.js";
 import SignupForm from "./components/signupForm.js";
 import Movies from "./components/movies";

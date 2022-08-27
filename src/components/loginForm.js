@@ -46,12 +46,12 @@ const LoginForm = () => {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Or{" "}
-            <a
+            <span
               onClick={() => history.push("/signup")}
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
               create your new account
-            </a>
+            </span>
           </p>
         </div>
 
