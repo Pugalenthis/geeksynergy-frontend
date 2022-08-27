@@ -8,7 +8,6 @@ const Movies = () => {
   useEffect(() => {
     fetch(`https://hoblist.com/api/movieList`, {
       method: "POST",
-      mode: "no-cors",
       body: JSON.stringify({
         category: "movies",
         language: "kannada",
