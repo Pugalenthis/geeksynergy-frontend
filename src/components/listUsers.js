@@ -11,7 +11,7 @@ const ListUsers = () => {
       .then((data) => data.json())
       .then((res) => setUsers(res))
       .catch((error) => console.log(error));
-  }, [users, update]);
+  }, [update]);
 
   return (
     <div>
